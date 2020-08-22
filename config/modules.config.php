@@ -10,6 +10,8 @@
  * List of enabled modules for this application.
  */
 return [
+    'Zend\Cache',
+    'Zend\Form',
     'Laminas\Db',
     'Laminas\Filter',
     'Laminas\Hydrator',
@@ -29,5 +31,11 @@ return [
     'Laminas\ApiTools\Rest',
     'Laminas\ApiTools\Rpc',
     'Laminas\ApiTools\Versioning',
+    'Laminas\ApiTools\Admin',
+    'DoctrineModule',
+    'Phpro\DoctrineHydrationModule',
+    'Laminas\ApiTools\Doctrine\Admin',
+    'Laminas\ApiTools\Doctrine\Server',
+    'DoctrineORMModule',
     'Application',
 ];

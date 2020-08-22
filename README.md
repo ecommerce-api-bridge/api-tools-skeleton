@@ -1,4 +1,4 @@
-Laminas API Tools Skeleton Application
+Ecommerce API Bridge Skeleton Application
 ======================================
 
 Requirements
