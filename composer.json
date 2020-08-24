@@ -28,6 +28,12 @@
             "dev-develop": "1.6.x-dev"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:ecommerce-api-bridge/adler-parser-module.git"
+        }
+    ],
     "require": {
         "php": "^5.6 || ^7.0",
         "laminas-api-tools/api-tools": "^1.4",
@@ -37,7 +43,8 @@
         "laminas/laminas-zendframework-bridge": "^1.0",
         "doctrine/doctrine-orm-module": "^2.1",
         "doctrine/doctrine-module": "^2.1",
-        "laminas-api-tools/api-tools-doctrine": "^2.3"
+        "laminas-api-tools/api-tools-doctrine": "^2.3",
+        "ecommerce-api-tools/adler-parser-module": "@dev"
     },
     "require-dev": {
         "laminas-api-tools/api-tools-admin": "^1.8",
