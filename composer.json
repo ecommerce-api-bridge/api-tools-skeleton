@@ -32,7 +32,12 @@
         {
             "type": "vcs",
             "url":  "git@github.com:ecommerce-api-bridge/adler-parser-module.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:ecommerce-api-bridge/adoco-parser-module.git"
         }
+        
     ],
     "require": {
         "php": "^5.6 || ^7.0",
@@ -43,8 +48,7 @@
         "laminas/laminas-zendframework-bridge": "^1.0",
         "doctrine/doctrine-orm-module": "^2.1",
         "doctrine/doctrine-module": "^2.1",
-        "laminas-api-tools/api-tools-doctrine": "^2.3",
-        "ecommerce-api-tools/adler-parser-module": "@dev"
+        "laminas-api-tools/api-tools-doctrine": "^2.3"
     },
     "require-dev": {
         "laminas-api-tools/api-tools-admin": "^1.8",
@@ -82,7 +86,7 @@
         "post-create-project-cmd": [
             "@development-enable"
         ],
-        "serve": "php -S 0.0.0.0:8080 -t public/",
+        "serve": "php -S 0.0.0.0:8080 -t public public/index.php",
         "test": "phpunit"
     }
 }
