@@ -28,17 +28,6 @@
             "dev-develop": "1.6.x-dev"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:ecommerce-api-bridge/adler-parser-module.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@github.com:ecommerce-api-bridge/adoco-parser-module.git"
-        }
-        
-    ],
     "require": {
         "php": "^5.6 || ^7.0",
         "laminas-api-tools/api-tools": "^1.4",
