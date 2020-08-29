@@ -36,4 +36,5 @@ return [
     'Laminas\ApiTools\Doctrine\Server',
     'DoctrineORMModule',
     'Application',
+    'Status',
 ];
