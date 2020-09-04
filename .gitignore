@@ -6,3 +6,4 @@
 config/development.config.php
 data/cache/*
 /nbproject
+.env
